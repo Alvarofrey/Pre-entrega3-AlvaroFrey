@@ -1,0 +1,6 @@
+@mixin borde-columnas-fondo {
+    background-color: rgb(143, 153, 126);
+    border-collapse: separate;
+border-spacing: 30px 30px;
+border: 5px solid rgb(130, 139, 113);
+}

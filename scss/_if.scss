@@ -1,0 +1,80 @@
+$fondoboyfoo: navidad;
+
+
+@if $fondoboyfoo == navidad    	{
+    main    {
+        .pad_form_pagar, .form-text {
+            color: white;
+        }
+    }
+    body    {
+        background-color: rgb(247, 0, 0);
+    }
+    p   {
+        color: white;
+    }
+    main    {
+        .p__textonatura {
+            color: white;
+        }
+    }
+    footer  {
+        .gradiante_footer  {
+            background: linear-gradient(to top, rgb(0, 158, 0),red);
+        }
+    }
+    header  {
+
+    .dropdown-menu-dark {
+        background-color: rgb(5, 117, 5);
+    }
+}
+main    {
+    .estiloofertas, .estilocarrito  {
+        color: white;
+    }
+   
+    .bordes_productos  {
+        background-color: rgb(5, 117, 5);
+    }
+    
+} 
+body    {
+    @keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+        100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+        }
+        
+        @-moz-keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+        100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+        }
+        
+        @-webkit-keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+        100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+        }
+        
+        @-ms-keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+        100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+        }
+        
+        #contenedor-nieve {
+        background-image: url(http://lh3.googleusercontent.com/-k6mAvDmeu4Q/UMefU6JI32I/AAAAAAAADpM/zdjTclnGDhM/s500/snow.png), url(http://lh6.googleusercontent.com/-8wOkQAdxfgg/UMefVfmte0I/AAAAAAAADpU/aE4HxfiXD88/s400/snow3.png), url(http://lh5.googleusercontent.com/-fhO2tXwKP9M/UMefVCohCOI/AAAAAAAADpQ/nFVnzK1W0xw/s300/snow2.png);
+        -webkit-animation: snow 20s linear infinite;
+        -moz-animation: snow 20s linear infinite;
+        -ms-animation: snow 20s linear infinite;
+        animation: snow 20s linear infinite;
+        }
+}  
+    
+}
+        
+    @else if $fondoboyfoo == estandar   {
+        body    {
+            background-color: rgb(117, 126, 102);
+
+
+        }
+    }
